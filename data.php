@@ -2,7 +2,7 @@
 
 //data.php
 
-$connect = new PDO("mysql:host=localhost;dbname=testing", "root", "");
+$connect = new PDO("mysql:host=localhost;dbname=chart", "root", "");
 
 if(isset($_POST["action"]))
 {
